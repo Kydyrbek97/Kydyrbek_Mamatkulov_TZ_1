@@ -1,0 +1,49 @@
+/* body{
+    background-color: green;
+} */
+/* Селектоор по тегу */
+ul{
+    color: aquamarine;
+} 
+/* Селектор по классу */
+.john{
+    font-weight: bold;
+    color: black !important;
+}
+/* Селектор по id */
+#snow1{
+    color: blue;
+}
+
+#snow2{
+    color:brown;
+}
+/* Селектор универсальный */
+*{
+font-style: italic;
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* 
+.john2{
+    font-style: italic;
+} */
+
+.block{
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aqua;
+    padding: 30px;
+}
+
+.block-item{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 25px;
+}
